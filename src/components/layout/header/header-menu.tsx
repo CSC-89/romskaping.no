@@ -25,6 +25,7 @@ const HeaderMenu: React.FC<MenuProps> = ({ data, className }) => {
 						href={item.path}
 						className="relative inline-flex items-center px-3 py-2 text-sm font-normal xl:text-base text-heading xl:px-4 group-hover:text-black"
 					>
+						{/** Update the menu links here */}
 						{t(item.label)}
 						{(item?.columns || item.subMenu) && (
 							<span className="opacity-30 text-xs mt-1 xl:mt-0.5 w-4 flex justify-end">

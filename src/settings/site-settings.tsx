@@ -39,7 +39,7 @@ export const siteSettings = {
     height: 30,
   },
   defaultLanguage: 'en',
-  currencyCode: 'USD',
+  currencyCode: 'NOK',
   site_header: {
     menu: [
       {
@@ -101,8 +101,8 @@ export const siteSettings = {
       },
       {
         id: 2,
-        path: '/search?q=men-wear',
-        label: 'menu-men-wear',
+        path: '/search?q=furniture',
+        label: 'Furniture',
         columns: [
           {
             id: 1,
@@ -645,85 +645,85 @@ export const siteSettings = {
         path: '/shops',
         label: 'menu-shops',
       },
-      {
-        id: 6,
-        path: '/',
-        label: 'menu-pages',
-        subMenu: [
-          {
-            id: 1,
-            path: '/',
-            label: 'menu-users',
-            subMenu: [
-              {
-                id: 1,
-                path: '/my-account',
-                label: 'menu-my-account',
-              },
-              {
-                id: 2,
-                path: '/signin',
-                label: 'menu-sign-in',
-              },
-              {
-                id: 3,
-                path: '/signup',
-                label: 'menu-sign-up',
-              },
-              {
-                id: 4,
-                path: '/forget-password',
-                label: 'menu-forget-password',
-              },
-            ],
-          },
-          {
-            id: 2,
-            path: '/faq',
-            label: 'menu-faq',
-          },
-          {
-            id: 3,
-            path: '/privacy',
-            label: 'menu-privacy-policy',
-          },
-          {
-            id: 4,
-            path: '/terms',
-            label: 'menu-terms-condition',
-          },
-          {
-            id: 5,
-            path: '/contact-us',
-            label: 'menu-contact-us',
-          },
-          {
-            id: 6,
-            path: '/checkout',
-            label: 'menu-checkout',
-          },
-          {
-            id: 7,
-            path: '/collections/mens-collection',
-            label: 'menu-collection',
-          },
-          {
-            id: 8,
-            path: '/category/man',
-            label: 'menu-category',
-          },
-          {
-            id: 9,
-            path: '/order',
-            label: 'menu-order',
-          },
-          {
-            id: 10,
-            path: '/404',
-            label: 'menu-404',
-          },
-        ],
-      },
+      // {
+      //   id: 6,
+      //   path: '/',
+      //   label: 'menu-pages',
+      //   subMenu: [
+      //     {
+      //       id: 1,
+      //       path: '/',
+      //       label: 'menu-users',
+      //       subMenu: [
+      //         {
+      //           id: 1,
+      //           path: '/my-account',
+      //           label: 'menu-my-account',
+      //         },
+      //         {
+      //           id: 2,
+      //           path: '/signin',
+      //           label: 'menu-sign-in',
+      //         },
+      //         {
+      //           id: 3,
+      //           path: '/signup',
+      //           label: 'menu-sign-up',
+      //         },
+      //         {
+      //           id: 4,
+      //           path: '/forget-password',
+      //           label: 'menu-forget-password',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       id: 2,
+      //       path: '/faq',
+      //       label: 'menu-faq',
+      //     },
+      //     {
+      //       id: 3,
+      //       path: '/privacy',
+      //       label: 'menu-privacy-policy',
+      //     },
+      //     {
+      //       id: 4,
+      //       path: '/terms',
+      //       label: 'menu-terms-condition',
+      //     },
+      //     {
+      //       id: 5,
+      //       path: '/contact-us',
+      //       label: 'menu-contact-us',
+      //     },
+      //     {
+      //       id: 6,
+      //       path: '/checkout',
+      //       label: 'menu-checkout',
+      //     },
+      //     {
+      //       id: 7,
+      //       path: '/collections/mens-collection',
+      //       label: 'menu-collection',
+      //     },
+      //     {
+      //       id: 8,
+      //       path: '/category/man',
+      //       label: 'menu-category',
+      //     },
+      //     {
+      //       id: 9,
+      //       path: '/order',
+      //       label: 'menu-order',
+      //     },
+      //     {
+      //       id: 10,
+      //       path: '/404',
+      //       label: 'menu-404',
+      //     },
+      //   ],
+      // },
     ],
     mobileMenu: [
       {
@@ -1041,123 +1041,123 @@ export const siteSettings = {
         path: '/shops',
         label: 'menu-shops',
       },
-      {
-        id: 6,
-        path: '/',
-        label: 'menu-pages',
-        subMenu: [
-          {
-            id: 1,
-            path: '/',
-            label: 'menu-users',
-            subMenu: [
-              {
-                id: 1,
-                path: '/my-account',
-                label: 'menu-my-account',
-              },
-              {
-                id: 2,
-                path: '/signin',
-                label: 'menu-sign-in',
-              },
-              {
-                id: 3,
-                path: '/signup',
-                label: 'menu-sign-up',
-              },
-              {
-                id: 4,
-                path: '/forget-password',
-                label: 'menu-forget-password',
-              },
-            ],
-          },
-          {
-            id: 2,
-            path: '/faq',
-            label: 'menu-faq',
-          },
-          {
-            id: 3,
-            path: '/privacy',
-            label: 'menu-privacy-policy',
-          },
-          {
-            id: 4,
-            path: '/terms',
-            label: 'menu-terms-condition',
-          },
-          {
-            id: 5,
-            path: '/contact-us',
-            label: 'menu-contact-us',
-          },
-          {
-            id: 6,
-            path: '/checkout',
-            label: 'menu-checkout',
-          },
-          {
-            id: 7,
-            path: '/collections/mens-collection',
-            label: 'menu-collection',
-          },
-          {
-            id: 8,
-            path: '/category/man',
-            label: 'menu-category',
-          },
-          {
-            id: 9,
-            path: '/order',
-            label: 'menu-order',
-          },
-          {
-            id: 10,
-            path: '/404',
-            label: 'menu-404',
-          },
-        ],
-      },
+      // {
+      //   id: 6,
+      //   path: '/',
+      //   label: 'menu-pages',
+      //   subMenu: [
+      //     {
+      //       id: 1,
+      //       path: '/',
+      //       label: 'menu-users',
+      //       subMenu: [
+      //         {
+      //           id: 1,
+      //           path: '/my-account',
+      //           label: 'menu-my-account',
+      //         },
+      //         {
+      //           id: 2,
+      //           path: '/signin',
+      //           label: 'menu-sign-in',
+      //         },
+      //         {
+      //           id: 3,
+      //           path: '/signup',
+      //           label: 'menu-sign-up',
+      //         },
+      //         {
+      //           id: 4,
+      //           path: '/forget-password',
+      //           label: 'menu-forget-password',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       id: 2,
+      //       path: '/faq',
+      //       label: 'menu-faq',
+      //     },
+      //     {
+      //       id: 3,
+      //       path: '/privacy',
+      //       label: 'menu-privacy-policy',
+      //     },
+      //     {
+      //       id: 4,
+      //       path: '/terms',
+      //       label: 'menu-terms-condition',
+      //     },
+      //     {
+      //       id: 5,
+      //       path: '/contact-us',
+      //       label: 'menu-contact-us',
+      //     },
+      //     {
+      //       id: 6,
+      //       path: '/checkout',
+      //       label: 'menu-checkout',
+      //     },
+      //     {
+      //       id: 7,
+      //       path: '/collections/mens-collection',
+      //       label: 'menu-collection',
+      //     },
+      //     {
+      //       id: 8,
+      //       path: '/category/man',
+      //       label: 'menu-category',
+      //     },
+      //     {
+      //       id: 9,
+      //       path: '/order',
+      //       label: 'menu-order',
+      //     },
+      //     {
+      //       id: 10,
+      //       path: '/404',
+      //       label: 'menu-404',
+      //     },
+      //   ],
+      // },
     ],
     languageMenu: [
-      {
-        id: 'ar',
-        name: 'عربى - AR',
-        value: 'ar',
-        icon: <SAFlag width="20px" height="15px" />,
-      },
-      {
-        id: 'zh',
-        name: '中国人 - ZH',
-        value: 'zh',
-        icon: <CNFlag width="20px" height="15px" />,
-      },
+      // {
+      //   id: 'ar',
+      //   name: 'عربى - AR',
+      //   value: 'ar',
+      //   icon: <SAFlag width="20px" height="15px" />,
+      // },
+      // {
+      //   id: 'zh',
+      //   name: '中国人 - ZH',
+      //   value: 'zh',
+      //   icon: <CNFlag width="20px" height="15px" />,
+      // },
       {
         id: 'en',
         name: 'English - EN',
         value: 'en',
         icon: <USFlag width="20px" height="15px" />,
       },
-      {
-        id: 'de',
-        name: 'Deutsch - DE',
-        value: 'de',
-        icon: <DEFlag width="20px" height="15px" />,
-      },
-      {
-        id: 'he',
-        name: 'rעברית - HE',
-        value: 'he',
-        icon: <ILFlag width="20px" height="15px" />,
-      },
-      {
-        id: 'es',
-        name: 'Español - ES',
-        value: 'es',
-        icon: <ESFlag width="20px" height="15px" />,
-      },
+      // {
+      //   id: 'de',
+      //   name: 'Deutsch - DE',
+      //   value: 'de',
+      //   icon: <DEFlag width="20px" height="15px" />,
+      // },
+      // {
+      //   id: 'he',
+      //   name: 'rעברית - HE',
+      //   value: 'he',
+      //   icon: <ILFlag width="20px" height="15px" />,
+      // },
+      // {
+      //   id: 'es',
+      //   name: 'Español - ES',
+      //   value: 'es',
+      //   icon: <ESFlag width="20px" height="15px" />,
+      // },
     ],
     categoryMenu: [
       {
