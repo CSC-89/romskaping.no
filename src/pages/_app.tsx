@@ -8,7 +8,7 @@ import { useEffect, useRef } from 'react';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { Hydrate } from 'react-query/hydration';
 import { ToastContainer } from 'react-toastify';
-// import { ReactQueryDevtools } from "react-query/devtools";
+import { ReactQueryDevtools } from "react-query/devtools";
 import { appWithTranslation } from 'next-i18next';
 import { DefaultSeo } from '@components/common/default-seo';
 
@@ -65,7 +65,7 @@ const CustomApp = ({ Component, pageProps }: AppProps) => {
 						<ManagedDrawer />
 					</ManagedUIContext>
 				</Hydrate>
-				{/* <ReactQueryDevtools /> */}
+				<ReactQueryDevtools />
 			</QueryClientProvider>
 		</AnimatePresence>
 	);
